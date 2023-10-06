@@ -1,0 +1,20 @@
+{
+    "name": "oxygenzsas/abstract",
+    "description": "liste des method abstract pour mon framework",
+    "license": "MIT",
+    "keywords": ["minimalist", "abstract", "plugin", "framework", "class","php"],
+    "authors": [
+        {
+            "name": "nvanhaezebrouck",
+            "email": "nicolas@oxygenz.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            OxygenzSAS\\Abstract\\" : "src/"
+        }
+    },
+    "require": {
+        "oxygenzsas/interfaces": "^0.2"
+    }
+}
