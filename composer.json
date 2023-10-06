@@ -1,5 +1,5 @@
 {
-    "name": "oxygenzsas/abstract",
+    "name": "oxygenzsas/composer_lib_abstract",
     "description": "liste des method abstract pour mon framework",
     "license": "MIT",
     "keywords": ["minimalist", "abstract", "plugin", "framework", "class","php"],
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            OxygenzSAS\\Abstract\\" : "src/"
+            "OxygenzSAS\\Abstract\\" : "src/"
         }
     },
     "require": {
